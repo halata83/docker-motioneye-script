@@ -2,7 +2,7 @@
 sudo mkdir /media/motioneye
 sudo mkdir /media/motioneye/config
 sudo mkdir /media/motioneye/records
-sudo chmod -r 777 /media/motioneye
+sudo chmod -R 777 /media/motioneye
 echo "instaluju docker"
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
